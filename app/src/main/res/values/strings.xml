@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Fifteeen Puzzle</string>
+    <string-array name="difficulties">
+        <item>Quick (3x3)</item>
+        <item>Short (4x4)</item>
+        <item>Medium (5x5)</item>
+        <item>Lengthy (6x6)</item>
+        <item>Looong (7x7)</item>
+    </string-array>
+    <string name='difficulty'>Choose your Difficulty</string>
+    <string name='go'>Go</string>
+    <string name="title_activity_game">GameActivity</string>
+
+
+    <string name="gameTitle">All the best</string>
+</resources>
