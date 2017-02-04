@@ -26,4 +26,41 @@ tools:context="tech.francium.fifteeenpuzzle.GameActivity">
         android:id="@+id/modelButton"
         android:layout_weight="0.01"
         android:visibility="invisible"/>
+
+    <Button
+        android:text="Down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonDown"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="LEFT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonLeft"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/buttonDown"
+        android:layout_toStartOf="@+id/buttonDown" />
+
+    <Button
+        android:text="RIGHT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonRight"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/buttonDown"
+        android:layout_toEndOf="@+id/buttonDown" />
+
+    <Button
+        android:text="Up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonUp"
+        android:layout_above="@+id/buttonDown"
+        android:layout_toRightOf="@+id/buttonLeft"
+        android:layout_toEndOf="@+id/buttonLeft" />
+
+
 </RelativeLayout>
